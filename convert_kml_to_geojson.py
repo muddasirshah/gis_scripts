@@ -1,3 +1,5 @@
+# use this script to convert kml file to geojson using GDAL
+
 import os
 from osgeo import osr
 from osgeo import gdal
