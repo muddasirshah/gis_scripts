@@ -21,3 +21,8 @@ Rtree
 Matplotlib
 Folium
 Leaflet.js (for web-based visualization)
+
+# Important
+Most of the GDAL based python scripts uses anaconda / "miniconda", you have to create the environment first with GDAL installed first here is how
+# conda create -n environmentname python=3.6 gdal 
+# pip install pyproj
