@@ -2,7 +2,7 @@
 Welcome to the GIS Data Processing Scripts repository! This repository contains a collection of scripts and tools designed to facilitate various GIS (Geographic Information Systems) data processing tasks. Whether you're working on spatial analysis, data transformation, or visualization, these scripts are here to help.
 
 # Important
-Most of the GDAL based python scripts uses anaconda / "miniconda", you have to create the environment first with GDAL installed first here is how
+Most of the GDAL based python scripts uses anaconda / "miniconda", you have to create the environment first with GDAL installed. Here is how
 To create an environment, change python version if you like but for me GDAL worked on python 3.6 so kept that, later releases of GDAL works with python > 3.10
 
 <b> conda create -n environmentname python=3.6 gdal </b> <br>
