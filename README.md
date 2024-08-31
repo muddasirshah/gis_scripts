@@ -3,7 +3,8 @@ Welcome to the GIS Data Processing Scripts repository! This repository contains 
 
 # Important
 Most of the GDAL based python scripts uses anaconda / "miniconda", you have to create the environment first with GDAL installed. Here is how
-To create an environment, change python version if you like but for me GDAL worked on python 3.6 so kept that, later releases of GDAL works with python > 3.10
+To create an environment, change python version if you like but for me GDAL worked on python 3.6 so kept that, later releases of GDAL works with python > 3.10<br>
+change package version like so gdal=3.0.2 <br>
 
 <b> conda create -n environmentname python=3.6 gdal </b> <br>
 <b> conda activate environmentname </b><br>
@@ -11,6 +12,11 @@ To create an environment, change python version if you like but for me GDAL work
 Change username and environmentname after importing os module if you are using the GDAL scripts with conda environment <br>
 <b> os.environ['PROJ_LIB'] = 'C:\\Users\\username\\.conda\\envs\\environmentname\\Library\\share\\proj' </b><br>
 <b> os.environ['GDAL_DATA'] = 'C:\\Users\\username\\.conda\\envs\\environmentname\\Library\\share' </b>
+
+To delete an environment<br>
+conda remove -n environmentname --all <br>
+conda clean --tarballs --packages
+
 
 # Contents
 1. Spatial Data Manipulation: Scripts for processing and transforming vector and raster data.
